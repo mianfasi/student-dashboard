@@ -25,7 +25,7 @@ const Modal = ({ student, onClose }) => {
       exit="hidden"
     >
       <motion.div
-        className="bg-white p-6 rounded-lg shadow-lg w-96"
+        className="bg-white p-6 rounded-lg shadow-lg w-100"
         variants={modalVariants}
       >
         <h2 className="text-xl font-bold mb-4">Student Details</h2>
